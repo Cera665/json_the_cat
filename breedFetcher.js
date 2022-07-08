@@ -15,3 +15,5 @@ const fetchBreedDescription = (breedName, cleverCallbackName) => {
     }
   });
 };
+
+module.exports = { fetchBreedDescription };
